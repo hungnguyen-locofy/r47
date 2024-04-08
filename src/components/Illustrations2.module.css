@@ -1,0 +1,102 @@
+.illustrationsChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0.38%;
+  right: 0;
+  bottom: 0.38%;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--white);
+  box-shadow: var(--card-shadow-1);
+}
+.illustrationsItem {
+  position: absolute;
+  height: 0.77%;
+  width: 81.05%;
+  top: 56.85%;
+  right: 10.89%;
+  bottom: 42.38%;
+  left: 8.06%;
+  border-top: 1px solid var(--greyscale-grey-pale);
+  box-sizing: border-box;
+}
+.illustrationsInner {
+  position: absolute;
+  height: 45.77%;
+  width: 91.94%;
+  top: 0.38%;
+  right: 8.06%;
+  bottom: 53.85%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.dataAggregator,
+.instagram {
+  position: absolute;
+  left: 76px;
+  display: inline-block;
+  font-weight: 700;
+}
+.instagram {
+  top: 16.4px;
+  line-height: 24px;
+  width: 93px;
+  height: 23.8px;
+  min-width: 93px;
+}
+.dataAggregator {
+  top: 43.2px;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  width: 39px;
+  height: 19.8px;
+}
+.instagramIcon {
+  position: absolute;
+  height: 30.54%;
+  width: 16.13%;
+  top: 14.92%;
+  right: 75.81%;
+  bottom: 54.54%;
+  left: 8.06%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.joiner,
+.joiner1,
+.rectangleDiv {
+  position: absolute;
+  height: 4.62%;
+  width: 34.68%;
+  top: 69.08%;
+  right: 57.26%;
+  bottom: 26.31%;
+  left: 8.06%;
+  border-radius: var(--br-3xs);
+  background-color: var(--greyscale-grey-pale);
+}
+.joiner1,
+.rectangleDiv {
+  top: 79.77%;
+  bottom: 15.62%;
+}
+.rectangleDiv {
+  width: 20.97%;
+  right: 8.06%;
+  left: 70.97%;
+}
+.illustrations {
+  position: absolute;
+  top: 521px;
+  left: 760px;
+  width: 248px;
+  height: 130px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--greyscale-dark-grey);
+  font-family: var(--font-chivo);
+}

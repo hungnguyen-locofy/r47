@@ -5,32 +5,27 @@ const Copyright: FunctionComponent = () => {
   return (
     <div className={styles.copyright}>
       <div className={styles.bg} />
-      <div className={styles.separator} />
-      <div className={styles.imageContainer}>
-        <i className={styles.growthlyAllRight}>
-          © 2020 Growthly. All Right Reserved
-        </i>
-        <div className={styles.divider}>
-          <img
-            className={styles.bxbxlInstagramAltIcon}
-            loading="lazy"
-            alt=""
-            src="/bxbxlinstagramalt.svg"
-          />
-          <img
-            className={styles.akarIconstwitterFill}
-            loading="lazy"
-            alt=""
-            src="/akariconstwitterfill.svg"
-          />
-          <img
-            className={styles.akarIconslinkedinFill}
-            loading="lazy"
-            alt=""
-            src="/akariconslinkedinfill.svg"
-          />
-        </div>
-      </div>
+      <img
+        className={styles.akarIconslinkedinFill}
+        loading="lazy"
+        alt=""
+        src="/akariconslinkedinfill.svg"
+      />
+      <img
+        className={styles.akarIconstwitterFill}
+        loading="lazy"
+        alt=""
+        src="/akariconstwitterfill.svg"
+      />
+      <img
+        className={styles.bxbxlInstagramAltIcon}
+        loading="lazy"
+        alt=""
+        src="/bxbxlinstagramalt.svg"
+      />
+      <i className={styles.growthlyAllRight}>
+        © 2020 Growthly. All Right Reserved
+      </i>
     </div>
   );
 };

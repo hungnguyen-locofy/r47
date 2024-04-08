@@ -1,78 +1,72 @@
 .yourBusinessEmail {
-  align-self: stretch;
   position: relative;
   line-height: 26px;
   font-weight: 700;
 }
-.visualizer {
-  width: 156px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-xs) 0 0;
+.box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--white);
+  border: 1px solid var(--greyscale-grey-pale);
   box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-4xl);
+  white-space: nowrap;
+  max-width: 100%;
+  height: 100%;
 }
 .getStarted {
-  width: 90px;
   position: relative;
   font-size: var(--font-size-base);
   line-height: 20px;
-  display: flex;
+  display: inline-block;
   font-weight: 700;
   font-family: var(--font-chivo);
   color: var(--white);
   text-align: center;
-  align-items: flex-end;
-  justify-content: center;
   min-width: 90px;
 }
-.box,
 .button,
 .button1 {
+  position: absolute;
   border-radius: var(--br-7xs);
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
 }
 .button1 {
   cursor: pointer;
   border: 0;
   padding: var(--padding-mini) var(--padding-11xl);
   background-color: var(--purple-purple);
-  justify-content: flex-start;
+  height: 75.76%;
+  width: 31.25%;
+  top: 12.12%;
+  right: 1.67%;
+  bottom: 12.12%;
+  left: 67.08%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
   white-space: nowrap;
-  z-index: 1;
 }
 .button1:hover {
   background-color: var(--color-mediumslateblue-100);
 }
-.box,
 .button {
-  max-width: 100%;
-}
-.box {
-  flex: 1;
-  background-color: var(--white);
-  border: 1px solid var(--greyscale-grey-pale);
-  box-sizing: border-box;
-  justify-content: space-between;
-  padding: var(--padding-5xs) var(--padding-4xs) var(--padding-5xs)
-    var(--padding-4xl);
-  gap: var(--gap-xl);
-}
-.button {
-  align-self: stretch;
+  top: 563px;
+  left: 164px;
   background-color: var(--color-gray-200);
-  justify-content: flex-start;
-  z-index: 1;
+  width: 480px;
+  height: 66px;
+  max-width: 100%;
   text-align: center;
   font-size: var(--font-size-base);
   color: var(--greyscale-grey-pale);
   font-family: var(--font-chivo);
-}
-@media screen and (max-width: 450px) {
-  .box {
-    flex-wrap: wrap;
-  }
 }

@@ -3,31 +3,24 @@ import styles from "./Button.module.css";
 
 export type ButtonType = {
   /** Style props */
-  propAlignSelf?: CSSProperties["alignSelf"];
-  propWidth?: CSSProperties["width"];
+  buttonTop?: CSSProperties["top"];
 };
 
-const Button: FunctionComponent<ButtonType> = ({
-  propAlignSelf,
-  propWidth,
-}) => {
+const Button: FunctionComponent<ButtonType> = ({ buttonTop }) => {
   const buttonStyle: CSSProperties = useMemo(() => {
     return {
-      alignSelf: propAlignSelf,
-      width: propWidth,
+      top: buttonTop,
     };
-  }, [propAlignSelf, propWidth]);
+  }, [buttonTop]);
 
   return (
     <div className={styles.button} style={buttonStyle}>
       <div className={styles.box}>
-        <div className={styles.visualizer}>
-          <i className={styles.yourBusinessEmail}>Your business email</i>
-        </div>
-        <button className={styles.button1}>
-          <i className={styles.getStarted}>Get Started</i>
-        </button>
+        <i className={styles.yourBusinessEmail}>Your business email</i>
       </div>
+      <button className={styles.button1}>
+        <i className={styles.getStarted}>Get Started</i>
+      </button>
     </div>
   );
 };

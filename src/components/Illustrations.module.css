@@ -1,0 +1,78 @@
+.salesGraph {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--white);
+  box-shadow: var(--card-shadow-1);
+}
+.salesStats {
+  position: absolute;
+  top: 9.09%;
+  left: 8.89%;
+  line-height: 18px;
+  display: inline-block;
+  font-weight: 700;
+  min-width: 77px;
+}
+.dataAggregator,
+.illustrationsChild,
+.illustrationsItem,
+.inputFilter {
+  position: absolute;
+  height: 3.41%;
+  width: 67.78%;
+  top: 76.14%;
+  right: 7.78%;
+  bottom: 20.45%;
+  left: 24.44%;
+  border-radius: var(--br-3xs);
+  background-color: var(--greyscale-grey-pale);
+}
+.dataAggregator,
+.illustrationsItem,
+.inputFilter {
+  width: 11.11%;
+  right: 81.11%;
+  left: 7.78%;
+}
+.illustrationsItem,
+.inputFilter {
+  width: 67.78%;
+  top: 84.09%;
+  right: 7.78%;
+  bottom: 12.5%;
+  left: 24.44%;
+}
+.inputFilter {
+  width: 11.11%;
+  right: 81.11%;
+  left: 7.78%;
+}
+.illustrationsInner {
+  position: absolute;
+  height: 38.07%;
+  width: 37.22%;
+  top: 25%;
+  right: 29.44%;
+  bottom: 36.93%;
+  left: 33.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.illustrations {
+  position: absolute;
+  top: 312.5px;
+  left: 751px;
+  width: 180px;
+  height: 176px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--greyscale-dark-grey);
+  font-family: var(--font-chivo);
+}
